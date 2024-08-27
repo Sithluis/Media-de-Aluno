@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-image: linear-gradient(to left, rgb(36, 36, 44), rgb(61, 61, 75), rgb(81, 81, 99));
+    height: 8vh;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    color: rgba(181, 199, 248, 0.664);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-size: 2.5rem;
+}
+
+main {
+    background: url(../imagens/fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+}
+
+main h2 {
+    padding: 10px;
+    font-size: 2rem;
+    color: rgba(30, 34, 44, 0.856);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    display: block;
+    margin: auto;
+    width: 50vw;
+    height: 35vh;
+    padding: 20px;
+    font-size: 1.3rem;
+    color: rgb(193, 193, 194);
+    text-shadow: 2px 2px 5px black;
+    border: 2px solid rgba(0, 0, 0, 0.76);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+form p {
+    padding: 11px;
+    text-align: left;
+}
+
+label {
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.616);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 40px;
+    background-color: rgba(205, 216, 247, 0.788);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
+}
+
+button {
+    color: rgb(30, 34, 44);
+    border: 2px solid rgb(30, 36, 51);
+
+    margin: 10px;
+    padding: 14px;
+    font-size: 1rem;
+    font-weight: bolder;
+
+    cursor: pointer;
+
+    transition-duration: 0.3s;
+}
+
+button:hover {
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    transform: translate(-1px, -1px);
+}
+
+div {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    width: 75px;
+    padding: 10px;
+    background-color: white;
+}
+
+@media (max-width: 500px) {
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+    
+    header {
+        background-image: linear-gradient(to left, rgb(36, 36, 44), rgb(61, 61, 75), rgb(81, 81, 99));
+        height: 8vh;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    
+    header h1 {
+        color: rgba(181, 199, 248, 0.664);
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        font-size: 28px;
+    }
+    
+    main {
+        background: url(../imagens/fundo.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 92vh;
+    }
+    
+    main h2 {
+        padding: 10px;
+        font-size: 22;
+        color: rgba(30, 34, 44, 0.856);
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    
+    form {
+        display: block;
+        margin: auto;
+        width: 65vw;
+        height: auto;
+        padding: 10px;
+        font-size: 1.1rem;
+        color: rgb(193, 193, 194);
+        text-shadow: 2px 2px 5px black;
+        border: 2px solid rgba(0, 0, 0, 0.76);
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    
+    form p {
+        padding: 11px;
+        text-align: left;
+    }
+    
+    label {
+        padding: 5px;
+        font-size: 18px;
+        border: 2px solid rgba(0, 0, 0, 0.616);
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
+    }
+    
+    input {
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        width: 40px;
+        background-color: rgba(205, 216, 247, 0.788);
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
+    }
+    
+    button {
+        color: rgb(30, 34, 44);
+        border: 2px solid rgb(30, 36, 51);
+    
+        margin: 10px;
+        padding: 14px;
+        font-size: 1rem;
+        font-weight: bolder;
+    
+        cursor: pointer;
+    
+        transition-duration: 0.3s;
+    }
+    
+    div {
+        display: block;
+        margin: auto;
+        border-radius: 10px;
+        width: 75px;
+        padding: 10px;
+        background-color: white;
+    }
+}

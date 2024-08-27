@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veja sua Média</title>
+    <link rel="stylesheet" href="estilo/style.css">
+
+    <script src="codigo/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Educação Funcional</h1>
+    </header>
+
+    <main>
+
+        <h2>EXATAS</h2>
+    
+        <form>
+        <p>
+            <label for="mat">Matemáteca:</label>
+            <input type="number" name="Mat" id="matNota" placeholder="nota">
+        </p>
+
+        <p>
+            <label for="fis">Física:</label>
+            <input type="number" name="fis" id="fisNota" placeholder="nota">
+        </p>
+
+        <p>
+            <label for="qui">Química:</label>
+            <input type="number" name="qui" id="quiNota" placeholder="nota">
+        </p>
+
+        <p>
+            <label for="inf">Informática:</label>
+            <input type="number" name="inf" id="infNota" placeholder="nota">
+        </p>
+        </form>
+
+        <button id="media" onclick="media()">Veja sua Média</button>
+
+        <div id="res">?</div>
+ </main>
+</body>
+</html>
